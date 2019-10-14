@@ -1,0 +1,85 @@
+.view-post-image {
+  width: 100%;
+}
+
+.image-with-text-div {
+  position: relative;
+
+  background-image: url('../../images/view-post-image.jpg');
+  background-repeat:none;
+  height: 350px;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0px;
+  left: 16px;
+  color: white;
+  font-size: 300%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dummy-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.comment-box {
+  padding: 5%;
+  padding-bottom: 3%;
+}
+
+.btn-primary {
+  margin-left: 20px;
+}
+
+.comment-text-area {
+  font-style: italic;
+  width: 100%;
+}
+
+.leave-comment {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  font: normal 16px / normal 'Times New Roman', Times, serif;
+  color: rgba(255, 255, 255, 0.9);
+  background: #1c56b2;
+}
+
+.user-icon {
+  position: absolute;
+
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.users-comment {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.user-name {
+  font-size: 150%;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: -0.5%;
+}
+
+.user-text {
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 1.5%;
+}
+
+.user-date {
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+

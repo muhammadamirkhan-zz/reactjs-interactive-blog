@@ -1,0 +1,97 @@
+.main-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+
+.table {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.posts-column {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nbs-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.hr-line {
+  size: 5;
+  padding: 05;
+  width: 100%;
+}
+
+.post-title {
+  padding-left: 1px;
+}
+
+.edit-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+
+.add-new-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  font: normal 16px / normal "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 0.9);
+  background: #1c56b2;
+  margin-left: 50px;
+}
+
+.search-row {
+  position: relative;
+}
+
+.search-feild {
+  font-style: italic;
+  padding: 10px 20px;
+
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.search-icon {
+  height: 32px;
+}
+
+.lists-post-page {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.lists-post-page td,
+.lists-post-page th {
+  padding: 8px;
+}
+
+.lists-post-page tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.lists-post-page th {
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2c3e52;
+  color: white;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.edit-delete {
+  color: blue;
+}
